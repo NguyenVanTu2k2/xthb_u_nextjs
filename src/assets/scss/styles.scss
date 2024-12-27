@@ -1,0 +1,195 @@
+/* third party styles */
+@import "~bootstrap/scss/bootstrap";
+@import "~react-tippy/dist/tippy.css";
+@import "~react-custom-scroll/dist/customScroll.css";
+@import "~react-slidedown/lib/slidedown.css";
+@import "~react-modal-video/scss/modal-video.scss";
+
+/* project styles */
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/reset";
+
+@import "layouts/footer";
+@import "layouts/grid";
+@import "layouts/header";
+@import "layouts/navigation";
+@import "layouts/sidebar";
+
+@import "pages/cart-wishlist";
+@import "pages/my-account";
+@import "pages/checkout";
+@import "pages/compare";
+@import "pages/coming-soon";
+@import "pages/404";
+
+@import "components/button";
+@import "components/form";
+@import "components/cta";
+@import "components/hero-slider";
+@import "components/product-tab";
+@import "components/product-thumb";
+@import "components/product-modal";
+@import "components/product-image-gallery";
+@import "components/product-description";
+@import "components/breadcrumb";
+@import "components/empty-area";
+@import "components/shop-header";
+@import "components/shop-advance-filter";
+@import "components/pagination";
+@import "components/section-title";
+@import "components/testimonial";
+@import "components/icon-box";
+@import "components/map";
+@import "components/faq";
+@import "components/blog";
+@import "components/category";
+@import "components/product-slider";
+@import "components/product-widget";
+@import "components/team";
+@import "components/newsletter";
+@import "components/countdown-timer";
+@import "components/lookbook";
+@import "components/shop-info";
+@import "components/banner";
+@import "components/about";
+@import "components/brand-logo";
+@import "components/image-slider";
+@import "components/overlay-menu";
+
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #95a5a6;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #ecf0f1;
+  background: #ecf0f1;
+  padding: 5px;
+  display: inline-block !important;
+  visibility: visible !important;
+}
+
+
+input[type="date"],
+focus {
+  color: #95a5a6;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-container {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.radio-container:hover input~.radio-checkmark {
+  background-color: #b3b3b3;
+}
+
+.radio-container input:checked~.radio-checkmark {
+  background-color: #4caf50;
+}
+
+.radio-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-container input:checked~.radio-checkmark:after {
+  display: block;
+}
+
+.radio-container .radio-checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.page {
+  background-image: url(https://images.unsplash.com/photo-1603513492128-ba7bc9b3e143?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFwZXIlMjB0ZXh0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+  border: 1px solid rgb(198, 194, 194);
+  /* border-radius: 0.5rem; */
+  box-sizing: border-box;
+  box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
+}
+
+.container-md {
+  width: 600px;
+}
+
+.page-cover {
+  background-image: url('https://i.imgur.com/mzp2Uub.jpg');
+  background-size: cover;
+}
+
+.page-cover-bottom {
+  box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5),
+    10px 0 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.page-cover-top {
+  box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5),
+    -2px 0 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.page-cover {
+  color: hsl(35, 35, 35);
+  border: solid 2px hsl(35, 20, 50);
+}
+
+.huongdan {}
+
+.custom-select {
+  min-width: 350px;
+  position: relative;
+  margin: 18px;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0.675em 6em 0.675em 1em;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  margin: 0 0 5px;
+  text-transform: capitalize;
+}
+

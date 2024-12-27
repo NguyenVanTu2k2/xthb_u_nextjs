@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "IT Club",
+    "designation": "IT++",
+    "image": "/assets/images/testimonial/testimonial-1-80x80.png",
+    "content": "Sáng tạo vươn tầm, kết nối thành công"
+  },
+  {
+    "id": "2",
+    "name": "AI? Music team",
+    "designation": "Music team",
+    "image": "/assets/images/testimonial/testimonial-2-80x80.jpg",
+    "content": "Hòa âm với vũ trụ, lan tỏa năng lượng"
+  },
+  {
+    "id": "3",
+    "name": "Đội Phát triển Web Vạn Năng",
+    "designation": "Web Developer",
+    "image": "/assets/images/testimonial/testimonial-3-80x80.jpg",
+    "content": "Sáng tạo với mã lập trình, biến ý tưởng thành hiện thực."
+  },
+  {
+    "id": "4",
+    "name": "Artistry Design Studio",
+    "designation": "Designer",
+    "image": "/assets/images/testimonial/testimonial-4-80x80.jpg",
+    "content": "Nghệ thuật đột phá, sáng tạo vô hạn"
+  }
+]

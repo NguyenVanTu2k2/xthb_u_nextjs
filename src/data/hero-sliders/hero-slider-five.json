@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "subtitle": "",
+    "title": "CHÀO BẠN GIA NHẬP TTIT NHÉ",
+    "url": "/shop/left-sidebar",
+    "bgImage": "/assets/images/tuyensinh/banner1.jpg"
+  },
+  {
+    "id": "2",
+    "subtitle": "",
+    "title": "TUYỂN SINH ĐẠI HỌC NĂM 2024",
+    "url": "/shop/left-sidebar",
+    "bgImage": "/assets/images/tuyensinh/banner2.jpg"
+  },
+  {
+    "id": "3",
+    "subtitle": "",
+    "title": "XÉT HỌC BẠ ONLINE ",
+    "url": "/shop/left-sidebar",
+    "bgImage": "/assets/images/tuyensinh/banner3.jpg"
+  }
+]
